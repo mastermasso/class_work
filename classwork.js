@@ -24,3 +24,44 @@ console.log(master(35,500));
 
 // 3)Create a function that constanly adds the values of a group of objects and returns the total.
 
+// Create nested user objects that you will apply this to, user EG.
+
+
+// Create 4 functions that are respectively named divide, add,subtract,multiply; These functions must all be applicable to the user(s) values on balance.
+
+ let users ={ user1:{"userdetails":
+    { "name":"Master",
+    "surname":"Masso"},
+    "account":{acc_type:"savings",
+    "balance":2000,
+    "date":today=new Date()}},
+
+    "user2":{ "userdetails":
+     {"name":"gerald",
+    "surname":"kapurura"},
+    "account":{acc_type:"savings",
+    "balance":1000,
+    "date":today=new Date()}}};
+ console.log(users.user1.account.balance);
+function add (value){
+return users.user1.account.balance + value } 
+ 
+function divide (value){
+return users.user1.account.balance / value};
+
+function multiply (value){
+return users.user1.account.balance * value};
+
+function subtract (value){
+return users.user1.account.balance - value};
+  
+console.log( average(2)); 
+
+//  Create a function that takes users values and generates and average for all the users
+
+function gen_avg (){
+
+let average = (user1 + user2) /2 
+
+  
+}
