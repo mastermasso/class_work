@@ -17,6 +17,7 @@ let master = function(age, balance) {
     return balance;
 }
 console.log(master(35,500));
+
 // 2.) Create a function that takes another function as a param.(You have to create a function named {get balance} that function must be passed as a param to another one )
 
 
